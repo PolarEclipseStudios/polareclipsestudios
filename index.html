@@ -83,15 +83,9 @@
                MOBILE RESPONSIVENESS FIXES
                ========================================== */
         @media screen and (max-width: 768px) {
-            /* Shrink the sticky logo on mobile so it doesn't block text */
-            #sticky-logo img {
-                width: 60px;
-                height: 60px;
-            }
-
+            /* Completely hide the sticky logo on mobile screens */
             #sticky-logo {
-                top: 10px;
-                left: 10px;
+                display: none !important;
             }
 
             /* Make sure the banner image doesn't get cut off on the sides */
